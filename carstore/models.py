@@ -14,4 +14,4 @@ class Cars(models.Model):
   invented_year = models.IntegerField()
 
   def __str__(self):
-    return f'{self.model} ({self.invented_year})'
+    return self.model
